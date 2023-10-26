@@ -1,0 +1,16 @@
+# External data keywords
+external_data_keywords:
+  npk: Majemuk
+  urea: Urea
+  fosfat: Fosfat
+  phospate: Fosfat
+  za : ZA
+  zk : ZK
+  0-0-: Kalium
+  nitr: Nitrogen
+  ganik: Organik
+  kompos: Organik
+
+# Data path
+external_data_path: ../data/raw/Produk_Pertanian_Brand_Katalog.csv
+external_data_processed_path: ../data/processed/Produk_Pertanian_Brand_Katalog.csv

@@ -1,6 +1,6 @@
 import re
 
-class ProductName:
+class Product:
     def __init__(self, full_name):
         # Initialize
         self.full_name = full_name
@@ -41,10 +41,3 @@ class ProductName:
                 self.metrics = None
 
         return self.metrics
-
-
-product = ProductName('Extra One 680 SC @ 500 ml 12-0-15')
-print(product.full_name)
-print(product.name)
-print(product.formula)
-print(product.metrics)
