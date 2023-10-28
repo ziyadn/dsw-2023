@@ -55,4 +55,4 @@ def get_matches_df(sparse_matrix, name_vector, top=100):
     
     return pd.DataFrame({'left_side': left_side,
                           'right_side': right_side,
-                           'similairity': similairity})
+                           'similarity': similairity})
