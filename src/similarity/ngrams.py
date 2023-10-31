@@ -1,4 +1,7 @@
+!pip install ftfy
 import re
+from ftfy import fix_text
+
 
 def ngrams(string, n=3):
     string = fix_text(string) #fix text encoding issues
