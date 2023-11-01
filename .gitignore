@@ -1,2 +1,5 @@
 .venv/
 env/
+src/__pycache__/
+src/preprocessing/__pycache__/
+src/similarity/__pycache__/
