@@ -1,1 +1,0 @@
-1. Eliminate 'pupuk' apply for external data only or for all data?
