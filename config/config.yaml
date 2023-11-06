@@ -14,11 +14,13 @@ external_data_keywords:
 # Data path
 catalog_data_path: data/raw/Product Catalog.xlsx
 catalog_data_sheet: Product Catalog
-catalog_data_processed_path: data/processed/Product Catalog.csv
+catalog_data_processed_path: data/processed/Catalog.pkl
 
 pos_data_path: data/raw/Product Name from PoS Transactions.xlsx
 pos_data_sheet: Product Name
-pos_data_processed_path: data/processed/Product Name from PoS Transactions.csv
+pos_data_processed_path: data/processed/POS.pkl
 
-external_data_path: data/raw/Produk_Pertanian_Brand_Katalog.csv
-external_data_processed_path: data/processed/Produk_Pertanian_Brand_Katalog.csv
+external_data_path: data/raw/Product_Pertanian_Brand_Katalog_nomatch_cat.csv
+external_data_processed_path: data/processed/External.pkl
+
+catalog_external_processed_path: data/processed/CatalogExternal.pkl
