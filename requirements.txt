@@ -6,3 +6,4 @@ scikit-learn
 scipy
 streamlit
 sparse_dot_topn
+ftfy
