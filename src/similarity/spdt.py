@@ -49,8 +49,8 @@ def get_matches_df(sparse_matrix, name_vector, top=100):
     similairity = np.zeros(nr_matches)
     
     for index in range(0, nr_matches):
-        left_side[index] = name_vector[sparserows[index]]
-        right_side[index] = name_vector[sparsecols[index]]
+        left_side[index] = name_vector[sparserows[index]] # -- pakai product catalog
+        right_side[index] = name_vector[sparsecols[index]] # -- langsung nama input product
         similairity[index] = sparse_matrix.data[index]
     
     return pd.DataFrame({'left_side': left_side,
