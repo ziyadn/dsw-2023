@@ -1,4 +1,4 @@
-﻿matlplotlib
+﻿matplotlib
 numpy
 pandas
 requests
